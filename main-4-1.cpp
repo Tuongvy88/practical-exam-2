@@ -10,6 +10,6 @@ int main() {
 	// function call provided 
 	int *mm = matrix_min_max(vals, nrows, ncols);
 	// outputting the result as required 
-	cout << mm[0] << " " << mm[1] << endl;
+	cout << mm[1] << " " << mm[0] << endl;
 	return 0;
 }
