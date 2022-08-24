@@ -11,13 +11,13 @@ int* matrix_min_max(int **vals, int num_rows, int num_cols){
 		for(int j=0; j<num_cols; j++){
 
 			//finding the numebr of max element
-            if(mm[1] > vals[i][j]){
-				mm[1] = vals[i][j];
+            if(mm[0] > vals[i][j]){
+				mm[0] = vals[i][j];
 			}
 
 			//finding min element
-            if(mm[0] < vals[i][j]){
-				mm[0] = vals[i][j];
+            if(mm[1] < vals[i][j]){
+				mm[1] = vals[i][j];
 			}
 		}
 	}
