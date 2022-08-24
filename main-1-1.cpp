@@ -1,4 +1,4 @@
-#include "function-1-1.cpp"
+#include <iostream>
 using namespace std;
 void print_ascending(int *vals, int len);
 int main(){
