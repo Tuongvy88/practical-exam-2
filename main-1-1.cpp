@@ -1,6 +1,6 @@
 #include "function-1-1.cpp"
 using namespace std;
-
+void print_ascending(int *vals, int len);
 int main(){
 
 //Calling the function to read values
