@@ -9,5 +9,5 @@ int main()
     
     int res = next_match_count(vals,vals_length);
     
-    cout<<"Number of Matches: "<<res;
+    cout<<res;
 }
