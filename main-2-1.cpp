@@ -2,13 +2,11 @@
 #include "function-2-1.cpp"
 using namespace std;
 
-//test function
 int main(){
 	
-	//create a loop to call lookup_month repeatedly
+	//create a loop to call lookup_month 
 	for(int i=0;i<15;i++){
 		
-		//call month_lookup
 		cout << "calling month_lookup(" << i << ") =>    " << month_lookup(i) << endl;
 		
 	}
